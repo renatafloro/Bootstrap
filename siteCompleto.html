@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <style>
+    .tm-social {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+
+  <title>Sebo Rê lendo</title>
+</head>
+<!-- Barra de navegação -->
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sebo Rê lendo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Todos os livros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Troque seus livros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Encontre por gênero
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Romance</a></li>
+              <li><a class="dropdown-item" href="#">Fantasia</a></li>
+              <li><a class="dropdown-item" href="#">Auto-ajuda</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Promoções</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Digite o que procura"
+            aria-label="Digite o que procura">
+          <button class="btn btn-outline-light" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- /Barra de navegação -->
+
+  <!-- Carrossel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/foto1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/foto2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/foto3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- /Carrossel -->
+
+  <!-- Cards -->
+ <H1 class="text-center">Livros</H1>
+  <div class="container">
+    <div class="card-group">
+      <div class="card">
+        <img src="./assets/img/Isla.JPG" class="card-img-top" alt="Capa do livro Isla e o final feliz">
+        <div class="card-body">
+          <h3 class="card-title">Isla e o final feliz</h3>
+          <h2 class="card-text">R$ 17,00</h2>
+          <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/depois.JPG" class="card-img-top" alt="Capa do livro Depois dos quinze">
+        <div class="card-body">
+          <h3 class="card-title">Depois dos quinze</h3>
+          <h2 class="card-text">R$ 20,00</h2>
+          <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/rio.JPG" class="card-img-top" alt="Capa do livro Rio vermelho">
+        <div class="card-body">
+          <h3 class="card-title">Rio Vermelho</h3>
+          <h2 class="card-text">R$ 12,00</h2>
+          <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/mundo.JPG" class="card-img-top" alt="Capa do livro Mundo paralelo">
+        <div class="card-body">
+          <h3 class="card-title">Mundos paralelos</h3>
+          <h2 class="card-text">R$ 18,00</h2>
+          <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Cards -->
+
+  <!-- Texto e vídeo -->
+  <div class="container">
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Sobre o Sebo Rê lendo</h3>
+        <p>O Sebo Rê lendo surgiu em outubro de 2020, quando eu, Renata Floro, leitora apaixonada e adm do perfil do
+          instagram
+          @re_lendo_, onde compartilho meu amor pela leitura.
+          Notando que alguns livros da minha estante estavam apenas juntando poeira e ocupando espaço, decidi
+          repassa-los para outras pessoas,
+          para que possam ter experiências literárias incríveis e ter acesso a livros em bom estado de conservação,
+          alguns nunca lidos,
+          por um preço acessível, além da possibilidade de trocar esse livro e assim poder diversificar a leitura.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AkPozzLSrsM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <!--/Texto e vídeo-->
+
+  <!-- Formulário --
+  <hr>
+  <div class="row mb-5">
+    <div class="col-md-12">
+      <h5 class="text-center">
+        Cadastre seu e-mail e fique por dentro das novidades do Sebo Rê lendo</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container">
+        <form>
+        !-- Nome e sobrenome --
+        <div class="row mb-3">
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Digite seu nome">
+          </div>
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" placeholder="Digite seu sobrenome" aria-label="Digite seu sobrenome">
+          </div>
+        </div>
+      
+          !-- /Nome e sobrenome --
+           -- Email --
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+           --/Email --
+        </form>
+      </div>
+    </div>
+  </div>
+-- Botão Cadastrar --
+<div class="d-grid gap-2 col-2 mx-auto">
+  <button class="btn btn-warning" type="button">Cadastrar</button>
+</div>
+-- /Botão Cadastrar -->
+ 
+  <!-- Formulário -->
+
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-3">
+      <label for="validationCustom01" class="form-label">Nome</label>  
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Digite seu nome" aria-label="Digite seu nome" required>
+      <div class="valid-feedback">
+        Nome válido
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom02" class="form-label">Sobrenome</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Digite seu Sobrenome" aria-label="Digite seu sobrenome" required>
+      <div class="valid-feedback">
+        Sobrenome válido
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom03" class="form-label"><E-mail>Digite seu <E-mail></label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="name@example.com" required>
+      <div class="valid-feedback">
+        E-mail válido
+      </div>
+    </div>
+   
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Concordo em receber e-mails do Sebo Rê lendo
+        </label>
+        <div class="invalid-feedback">
+          Por favor, concorde antes de enviar
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-warning" type="submit">Cadastrar</button>
+    </div>
+  </form>
+
+  <!--Footer -->
+  <hr>
+  <footer>
+    <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-center">
+
+        <a href="https://shopee.com.br/shop/219156193/" target="_blank" class="p-3">
+          <img class="tm-social" src="./assets/img/shopee.png" alt="logoshopee">
+        </a>
+        <a href="https://www.skoob.com.br/usuario/1105707" target="_blank" class="p-3">
+          <img class="tm-social" src="./assets/img/skoob.png" alt="logoskoob">
+        </a>
+        <a href="https://www.instagram.com/re_lendo_/" target="_blank" class="p-3">
+          <img class="tm-social" src="./assets/img/instagram.png" alt="logoinstagram">
+        </a>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados: Renata Floro &copy;
+        </p>
+      </div>
+    </div>
+
+  </footer>
+  <!-- /footer-->
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
