@@ -19,8 +19,10 @@
 
   <title>Sebo Rê lendo</title>
 </head>
-<!-- Barra de navegação -->
+
 <body>
+
+  <!-- Barra de navegação -->
   <nav class="navbar navbar-expand-lg navbar-light bg-warning">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Sebo Rê lendo</a>
@@ -31,24 +33,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Todos os livros</a>
+            <a class="nav-link text-dark" aria-current="page" href="#">Todos os livros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Troque seus livros</a>
+            <a class="nav-link text-dark" href="#">Troque seus livros</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Encontre por gênero
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Romance</a></li>
               <li><a class="dropdown-item" href="#">Fantasia</a></li>
               <li><a class="dropdown-item" href="#">Auto-ajuda</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Promoções</a>
+            <a class="nav-link text-dark" href="#">Promoções</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -59,7 +61,7 @@
       </div>
     </div>
   </nav>
-<!-- /Barra de navegação -->
+  <!-- /Barra de navegação -->
 
   <!-- Carrossel -->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -96,38 +98,46 @@
   <!-- /Carrossel -->
 
   <!-- Cards -->
- <H1 class="text-center">Livros</H1>
+  <H1 class="text-center mb-5">Livros</H1>
   <div class="container">
     <div class="card-group">
       <div class="card">
-        <img src="./assets/img/Isla.JPG" class="card-img-top" alt="Capa do livro Isla e o final feliz">
+        <img src="./assets/img/isla.png" class="card-img-top" alt="Capa do livro Isla e o final feliz">
         <div class="card-body">
           <h3 class="card-title">Isla e o final feliz</h3>
-          <h2 class="card-text">R$ 17,00</h2>
+          <h2 class="card-text">R$ 12,00</h2>
+          <a href="https://shopee.com.br/Isla-e-o-final-feliz-Stephanie-Perkins-i.219156193.13809199973" target="_blank"
+            class="btn btn-warning">Comprar</a>
           <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
         </div>
       </div>
       <div class="card">
-        <img src="./assets/img/depois.JPG" class="card-img-top" alt="Capa do livro Depois dos quinze">
+        <img src="./assets/img/depois.png" class="card-img-top" alt="Capa do livro Depois dos quinze">
         <div class="card-body">
           <h3 class="card-title">Depois dos quinze</h3>
           <h2 class="card-text">R$ 20,00</h2>
+          <a href="https://shopee.com.br/Depois-dos-quinze-Quando-tudo-come%C3%A7ou-a-mudar-i.219156193.12410546769"
+            target="_blank" class="btn btn-warning">Comprar</a>
           <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
         </div>
       </div>
       <div class="card">
-        <img src="./assets/img/rio.JPG" class="card-img-top" alt="Capa do livro Rio vermelho">
+        <img src="./assets/img/rio.png" class="card-img-top" alt="Capa do livro Rio vermelho">
         <div class="card-body">
           <h3 class="card-title">Rio Vermelho</h3>
-          <h2 class="card-text">R$ 12,00</h2>
+          <h2 class="card-text">R$ 10,00</h2>
+          <a href="https://shopee.com.br/Rio-Vermelho-Amy-Lloyd-(Edi%C3%A7%C3%A3o-econ%C3%B4mica)-i.219156193.12309222235"
+            target="_blank" class="btn btn-warning">Comprar</a>
           <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
         </div>
       </div>
       <div class="card">
-        <img src="./assets/img/mundo.JPG" class="card-img-top" alt="Capa do livro Mundo paralelo">
+        <img src="./assets/img/mundo.png" class="card-img-top" alt="Capa do livro Mundo paralelo">
         <div class="card-body">
           <h3 class="card-title">Mundos paralelos</h3>
-          <h2 class="card-text">R$ 18,00</h2>
+          <h2 class="card-text">R$ 16,00</h2>
+          <a href="https://shopee.com.br/Mundos-paralelos-i.219156193.11949230470" target="_blank"
+            class="btn btn-warning">Comprar</a>
           <h5 class="card-text"><small class="text-muted">Em estoque</small></h5>
         </div>
       </div>
@@ -160,88 +170,52 @@
   </div>
   <!--/Texto e vídeo-->
 
-  <!-- Formulário --
-  <hr>
-  <div class="row mb-5">
-    <div class="col-md-12">
-      <h5 class="text-center">
-        Cadastre seu e-mail e fique por dentro das novidades do Sebo Rê lendo</h5>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-6">
-      <div class="container">
-        <form>
-        !-- Nome e sobrenome --
-        <div class="row mb-3">
-          <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Nome</label>
-            <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Digite seu nome">
-          </div>
-          <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Sobrenome</label>
-            <input type="text" class="form-control" placeholder="Digite seu sobrenome" aria-label="Digite seu sobrenome">
-          </div>
-        </div>
-      
-          !-- /Nome e sobrenome --
-           -- Email --
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-           --/Email --
-        </form>
-      </div>
-    </div>
-  </div>
--- Botão Cadastrar --
-<div class="d-grid gap-2 col-2 mx-auto">
-  <button class="btn btn-warning" type="button">Cadastrar</button>
-</div>
--- /Botão Cadastrar -->
- 
   <!-- Formulário -->
-
-  <form class="row g-3 needs-validation" novalidate>
-    <div class="col-md-3">
-      <label for="validationCustom01" class="form-label">Nome</label>  
-      <input type="text" class="form-control" id="validationCustom01" placeholder="Digite seu nome" aria-label="Digite seu nome" required>
-      <div class="valid-feedback">
-        Nome válido
-      </div>
-    </div>
-    <div class="col-md-3">
-      <label for="validationCustom02" class="form-label">Sobrenome</label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Digite seu Sobrenome" aria-label="Digite seu sobrenome" required>
-      <div class="valid-feedback">
-        Sobrenome válido
-      </div>
-    </div>
-    <div class="col-md-4">
-      <label for="validationCustom03" class="form-label"><E-mail>Digite seu <E-mail></label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="name@example.com" required>
-      <div class="valid-feedback">
-        E-mail válido
-      </div>
-    </div>
-   
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-        <label class="form-check-label" for="invalidCheck">
-          Concordo em receber e-mails do Sebo Rê lendo
-        </label>
-        <div class="invalid-feedback">
-          Por favor, concorde antes de enviar
+  <hr>
+  <div class="row d-flex justify-content-center">
+    <h2 class="text-center">Cadastre seu e-mail e fique por dentro das promoções</h2>
+    <form class="row g-3 needs-validation d-flex justify-content-center" novalidate>
+      <div class="col-md-3">
+        <label for="validationCustom01" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="validationCustom01" placeholder="Digite seu nome"
+          aria-label="Digite seu nome" required>
+        <div class="valid-feedback">
+          Nome válido
         </div>
       </div>
-    </div>
-    <div class="col-12">
-      <button class="btn btn-warning" type="submit">Cadastrar</button>
-    </div>
-  </form>
+      <div class="col-md-3">
+        <label for="validationCustom02" class="form-label">Sobrenome</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Digite seu Sobrenome"
+          aria-label="Digite seu sobrenome" required>
+        <div class="valid-feedback">
+          Sobrenome válido
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="inputEmail" class="control-label"> Digite seu E-mail</label>
+        <input type="email" class="form-control" id="inputEmail" data-error="Este é um endereço de e-mail inválido"
+          placeholder="name@example.com" required>
+        <div class="help-block with-errors"></div>
+      </div>
+      <div class="row d-flex flex-column align-items-center">
+        <div class="col-4 d-flex justify-content-center">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Concordo em receber e-mails do Sebo Rê lendo
+            </label>
+            <div class="invalid-feedback">
+              Por favor, concorde antes de enviar
+            </div>
+          </div>
+        </div>
+        <div class="col-3 d-flex justify-content-center mb-3">
+          <button class="btn btn-warning" type="submit">Cadastrar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- /Formulário -->
 
   <!--Footer -->
   <hr>
@@ -278,7 +252,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
-    <script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 
